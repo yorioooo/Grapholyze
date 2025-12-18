@@ -1,0 +1,44 @@
+[
+    {
+        "_id": {
+            "$oid": "651c6c9f80a4f5b5c0012345"
+        },
+        "name": "Admin User",
+        "email": "admin@example.com",
+        "password": "$2a$10$YourHashedPasswordHereOrUseSeeder",
+        "role": "admin",
+        "profile": {
+            "age": 30,
+            "gender": "Laki-laki",
+            "education": "S1 Informatika",
+            "dominant_hand": "Kanan"
+        },
+        "createdAt": {
+            "$date": "2024-01-01T00:00:00.000Z"
+        },
+        "updatedAt": {
+            "$date": "2024-01-01T00:00:00.000Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "651c6c9f80a4f5b5c0012346"
+        },
+        "name": "Rio Santoso",
+        "email": "rio@example.com",
+        "password": "$2a$10$YourHashedPasswordHere",
+        "role": "user",
+        "profile": {
+            "age": 22,
+            "gender": "Laki-laki",
+            "education": "SMA",
+            "dominant_hand": "Kanan"
+        },
+        "createdAt": {
+            "$date": "2024-01-02T00:00:00.000Z"
+        },
+        "updatedAt": {
+            "$date": "2024-01-02T00:00:00.000Z"
+        }
+    }
+]

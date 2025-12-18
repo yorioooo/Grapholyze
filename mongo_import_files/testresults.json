@@ -1,0 +1,27 @@
+[
+    {
+        "user": {
+            "$oid": "651c6c9f80a4f5b5c0012346"
+        },
+        "imagePath": "uploads/sample1.jpg",
+        "status": "completed",
+        "results": {
+            "personalityType": "Type 5: The Investigator",
+            "traits": [
+                "Analitis",
+                "Observatif",
+                "Mandiri"
+            ],
+            "confidence": 0.92,
+            "analysisDate": {
+                "$date": "2024-01-03T10:00:00.000Z"
+            }
+        },
+        "createdAt": {
+            "$date": "2024-01-03T10:00:00.000Z"
+        },
+        "updatedAt": {
+            "$date": "2024-01-03T10:00:00.000Z"
+        }
+    }
+]
